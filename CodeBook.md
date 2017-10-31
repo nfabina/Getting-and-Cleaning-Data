@@ -55,10 +55,15 @@ There are 5 parts:
 
 # How run_analysis.R implements the above steps:
 
-* Require plyr libraries.
-* Load both test and train data
-* Load the features and activity labels.
-* Process the data. There are two parts processing test and train data respectively. 
-* Merge data set. 
-* Extract the mean and standard deviation.
+* Get the data.
+* Download the file and put the file in the data folder.
+* Unzip the file.
+* Unzipped files are in the folderUCI HAR Dataset. Get the list of the files.
+* Read data from the files into the variables.
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement.
+* Uses descriptive activity names to name the activities in the data set.
+* Apply descriptive variable names to test labels.
+* Apply descriptive variable names to train labels.
+* Creates a second,independent tidy data set and ouput it.
 
