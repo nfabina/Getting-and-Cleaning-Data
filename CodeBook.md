@@ -58,6 +58,7 @@ There are 5 parts:
 * Require plyr libraries.
 * Load both test and train data
 * Load the features and activity labels.
+* Process the data. There are two parts processing test and train data respectively. 
+* Merge data set. 
 * Extract the mean and standard deviation.
-* Process the data. There are two parts processing test and train data respectively.
-* Merge data set.
+
